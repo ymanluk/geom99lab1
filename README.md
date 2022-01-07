@@ -13,7 +13,7 @@ The repository you have loaded likely does not have "GitHub Pages" enabled. You 
 3. Under `Source: Branch`, select `Main`. Leave the other settings as Root
 4. Click `Save` to commit this. 
 
-Now your repository will be accessible under GitHub Pages (an HTML Web Server) at [](https://[username.github.io/geom99) where `[username]` is your GitHub account username.
+Now your repository will be accessible under GitHub Pages (an HTML Web Server) at [https://[username].github.io/geom99](https://[username].github.io/geom99) where `[username]` is your GitHub account username.
 
 ## Activities to complete
 
