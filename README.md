@@ -2,18 +2,27 @@
 
 ## Welcome and Instructions
 
-Congratulations on loading the repository for Week 1 and 2 in Geom101. You will find associated starter files here and instructions how to proceed in the D2L checklist titled [Week 1 and 2 Checklist: Google Maps](https://fleming.desire2learn.com/d2l/lms/checklist/viewchecklist.d2l?checklistId=11564&ou=165911)
+For the Google Maps exercises in Week 1 and 2 we are using GitHub as our primary development platform. This repository is a template and you will deploy it into your own GitHub account, modify the provided files and create your own solutions. During the practical lab you will submit URLs to the various resources here. 
+
+You will find associated starter files here and instructions how to proceed in the D2L checklist titled [Week 1 and 2 Checklist: Google Maps](https://fleming.desire2learn.com/d2l/lms/checklist/viewchecklist.d2l?checklistId=11564&ou=165911)
 
 ## Before you begin
 
-The repository you have loaded likely does not have "GitHub Pages" enabled. You must do this yourself now by:
+First step is to deploy the template into your own account. 
 
-1. Click the `Settings` icon, near the top-right side of the GitHub window
-2. Scroll to the bottom and look for `Pages` entry in the left selection, click it. 
-3. Under `Source: Branch`, select `Main`. Leave the other settings as Root
-4. Click `Save` to commit this. 
+1. Find and click the green "Use This Template" button at the top of the window at https://github.com/FlemingGeom/googlemaps-shawnmflemingc.
+2. Set the Repository Name as exactly `pl1` (as in Practical Lab 1, PS: this is case sensitive)
+3. Make the repository Public. 
+4. Click Create Repository from Template to start the migration. Once complete, it will open to the ReadMe.md in the root of the repository under your account. You now have a "copy" of all files and can modify, edit and use these files to learn. 
 
-Now your repository will be accessible under GitHub Pages (an HTML Web Server) at [https://[username].github.io/geom99](https://[username].github.io/geom99) where `[username]` is your GitHub account username.
+### Before many of the samples will work you must enable GitHub pages. 
+
+6. Click the `Settings` icon, near the top-right side of the GitHub window
+7. Scroll to the bottom and look for `Pages` entry in the left selection, click it. 
+8. Under `Source: Branch`, select `Main`. Leave the other settings as Root
+9. Click `Save` to commit this. 
+
+Now your repository will be accessible under GitHub Pages (an HTML Web Server) at [https://[username].github.io/pl1](https://[username].github.io/pl1) where `[username]` is your GitHub account username.
 
 ## Activities to complete
 
@@ -37,7 +46,7 @@ Google Maps is a pay-per-use service and requires a valid API Key to function. T
 
 ### Referral from FlemingGeom GitHub Classrooms (URL links from web pages). 
 
-A referral is the address of the web page where a someone clicked the link that sent them to the page (in this case the various Google API's). The repository URL works only with a specific GitHub Repository name to protect its usage. The URL must be exactly `https://[username].github.io/geom99`, where `[username]` is replaced with your actual GitHub account's username.
+A referral is the address of the web page where a someone clicked the link that sent them to the page (in this case the various Google API's). The repository URL works only with a specific GitHub Repository name to protect its usage. The URL must be exactly `https://[username].github.io/pl1`, where `[username]` is replaced with your actual GitHub account's username.
 
 ### Whitelisted IP Address
 
