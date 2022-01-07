@@ -39,15 +39,11 @@ Google Maps is a pay-per-use service and requires a valid API Key to function. W
 
 A referral is the address of the web page where a someone clicked the link that sent them to the page (in this case the various Google API's). The repository URL works only with the GitHub Classrooms environment. The URL must be exactly `fleminggeom.github.io/googlemaps-[username]`, where `[username]` is replaced with your actual GitHub account's username.
 
-URL Referral Whitelisted: `AIzaSyDv3MGflguusDaLmV_-BUlmuoUI4EbM88w`
-
 ### Whitelisted IP Address
 
 Some items (like Directions API) do not accept Referrals and are meant to be used server-side (aka locally on your computer). To provide access here a second key is provided that is restricted only by the IP address of the calling computer. This key will work on the Fleming VDI or (optionally, if your computer IP is provided during your first scheduled lab) on your local computer. 
 
-IP Address Whitelisted: `AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE`
-
-_Both of these keys are restricted to provide access to only the following on Google Cloud:_
+_Both keys are provided within the Geom99 D2L Checklist and are restricted to provide access to only the following on Google Cloud:_
 
 _Directions API, Distance Matrix API, Geocoding API, Geolocation API, Maps Elevation API, Maps Embed API, Maps JavaScript API, Maps Static API, Places API, Roads API, Street View Static API, Time Zone API_
 
