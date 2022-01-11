@@ -58,4 +58,4 @@ _Directions API, Distance Matrix API, Geocoding API, Geolocation API, Maps Ele
 
 _The API Keys you must use are provided in Desire2Learn Geom99 class. It is not recommended to create your own account and keys without first consulting with the instructor._
 
-[](https://developers.google.com/maps/gmp-get-started)(Are you a programmer? You can find more Google Maps samples on GitHub here: [https://github.com/googlemaps/js-samples](https://github.com/googlemaps/js-samples))
+[](https://developers.google.com/maps/gmp-get-started)(Like what you see? You can find more Google Maps samples on GitHub here: [https://github.com/googlemaps/js-samples](https://github.com/googlemaps/js-samples))
