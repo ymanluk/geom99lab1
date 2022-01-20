@@ -7,7 +7,7 @@ Combined with the Weekly checklists in D2L, complete the following two activitie
 
 This html page is associated with the readings at https://developers.google.com/maps/documentation/javascript/overview#maps_map_simple-html
 
-The simplemap can be opened in GitHub Pages by modifying the url `https://fleminggeom.github.io/googlemaps-[username]/services/simplemap.html`. Remember to replace the `[username]` portion with your actual GitHub username. 
+The simplemap can be opened in GitHub Pages by modifying the url `https://[username].github.io/pl1/services/simplemap.html`. Remember to replace the `[username]` portion with your actual GitHub username. 
 
 Unmodified, opening this page fails with an error `Oops! Something went wrong.` Now Read the console using the F12 tools in your Chrome browser to see the actual error. The following warning should appear:
 ```
@@ -24,3 +24,5 @@ Now that you have seen a custom map, let us look at some more services that powe
 The instructions to follow are provided in the markdown document: 
 #### [directions.md](directions.md) - Explore the Directions API here, then complete the activity at the end for marks
 Follow these instructions to explore how service based requests occur and how to interpret their JSON responses. Once you understand the URL request and JSON response,  complete the activity by modifying the mydirections.md markdown document with your novel Google Directions API URL. 
+
+Revision 2
