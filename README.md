@@ -4,7 +4,7 @@
 
 For the Google Maps exercises in Week 1 and 2 we are using GitHub as our primary development platform. This repository is a template and you will deploy it into your own GitHub account, modify the provided files and create your own solutions. During the practical lab you will submit URLs to the various resources here. 
 
-You will find associated starter files here and instructions how to proceed in the D2L checklist titled [Week 1 and 2 Checklist: Google Maps](https://fleming.desire2learn.com/d2l/lms/checklist/viewchecklist.d2l?checklistId=11564&ou=165911)
+You will find associated starter files here and instructions how to proceed in the D2L checklist titled [Week 1 and 2 Checklist: Google Maps](https://fleming.desire2learn.com/d2l/lms/checklist/viewchecklist.d2l?checklistId=15421&ou=187556)
 
 ## Before you begin
 
