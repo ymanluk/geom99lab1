@@ -11,18 +11,18 @@ You will find associated starter files here and instructions how to proceed in t
 First step is to deploy the template into your own account. 
 
 1. Find and click the green "Use This Template" button at the top of the window at https://github.com/FlemingGeom/googlemaps-shawnmflemingc.
-2. Set the Repository Name as exactly `pl1` (as in Practical Lab 1, PS: this is case sensitive)
+2. Set the Repository Name as exactly `geom99lab1` (PS: this is case sensitive, so all lowercase please!)
 3. Make the repository Public. 
 4. Click Create Repository from Template to start the migration. Once complete, it will open to the ReadMe.md in the root of the repository under your account. You now have a "copy" of all files and can modify, edit and use these files to learn. 
 
-### You must enable GitHub pages to view HTML documents at the url `[username].github.io/pl1/`. 
+### You must enable GitHub pages to view HTML documents at the url `[username].github.io/geom99lab1/`. 
 
 6. Click the `Settings` icon, near the top-right side of the GitHub window
 7. Scroll to the bottom and look for `Pages` entry in the left selection, click it. 
 8. Under `Source: Branch`, select `Main`. Leave the other settings as Root
 9. Click `Save` to commit this. 
 
-Now your repository will be accessible under GitHub Pages (an HTML Web Server) at `https://[username].github.io/pl1` where `[username]` is your GitHub account username and the repository name is `pl1`. Note you must type this manually into the URL above, or better yet, modify the ReadMe.md to change [username] to be your actual username! 
+Now your repository will be accessible under GitHub Pages (an HTML Web Server) at `https://[username].github.io/geom99lab1` where `[username]` is your GitHub account username and the repository name is `pl1`. Note you must type this manually into the URL above, or better yet, modify the ReadMe.md to change [username] to be your actual username! 
 
 ## Activities to complete
 
@@ -42,15 +42,15 @@ Please individually complete all items listed in the D2L checklist _before_ the 
 
 ## Geom99 Provided API Key 
 
-Google Maps is a pay-per-use service and requires a valid API Key to function. Through an educational grant we have been given a few keys that we can use. Whenever the documentation asks for a key you can use one of the two available. There are two types of keys available this year:
+Google Maps is a pay-per-use service for developers and requires a valid API Key to function. Through an educational grant we have been given a few keys that we can use. Whenever the documentation asks for a key you can use one of the two available. There are two types of keys available this year:
 
-### Referral from FlemingGeom GitHub Classrooms (URL links from web pages). 
+### Referral (URL links from web pages). 
 
-A referral is the address of the web page where a someone clicked the link that sent them to the page (in this case the various Google API's). The repository URL works only with a specific GitHub Repository name to protect its usage. The URL must be exactly `https://[username].github.io/pl1/` followed by the directory and filename you want to see, where `[username]` is replaced with your actual GitHub account's username.
+A referral is the address of the web page where a someone clicked the link that sent them to the page (in this case the various Google API's). The repository URL works only with a specific GitHub Repository name to protect its usage. The URL must be exactly `https://[username].github.io/geom99lab1/` followed by the directory and filename you want to see, where `[username]` is replaced with your actual GitHub account's username.
 
 ### Whitelisted IP Address
 
-Some items (like Directions API) do not accept Referral URLs as are meant to be used server-side (aka locally on your computer). To provide access here a second key is provided that is restricted only by the IP address of the calling computer. This key will work on the Fleming VDI (optionally, if your computer IP is provided during your first scheduled lab, on your local computer as long as that IP is valid). 
+Some items (like Directions API) do not accept Referral URLs as are meant to be used server-side (aka locally on your computer). To provide access here a second key is provided that is restricted only by the IP address of the calling computer. This key will work on the Fleming labs and VDI (optionally, if your computer IP is provided during your first scheduled lab, on your local computer as long as that IP is valid). 
 
 #### _Both keys are provided within the Geom99 Desire2learn Checklist and are restricted to provide access to only the following:_
 
