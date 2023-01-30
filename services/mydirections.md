@@ -12,11 +12,8 @@ Be creative and use multiple parameters from the API documentation to earn a top
 https://YourDirectionsApiURLGoesHere
 ```
 
-## Next paste the full JSON response to this query here:
+## Take the JSON results and replace the contents of the file from the repository ```mydirections.json```:
 
-```JSON
-PASTE_YOUR_JSON_RESULTS_HERE
-```
 ____
 ## Rubric
 
