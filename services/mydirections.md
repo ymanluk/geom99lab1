@@ -14,6 +14,13 @@ https://YourDirectionsApiURLGoesHere
 
 Copy/paste the JSON results and save them into the empty file ```mydirections.json``` in this repository
 
+## Optional URLs
+
+(returns map-preferred) Maps PlaceID search: https://www.google.com/maps/place/?q=place_id:ChIJFfiCrdo4Qm0RqPwuOAVtaj8
+(returns JSON) API PlaceID link https://maps.googleapis.com/maps/api/place/details/json?placeid=ChIJV2BQ4laeekgRFauLvdXbFXE&key=<INSERTKEY>
+  which can then be used to find CID and create URL like https://maps.google.com/?cid=4569584641105657000
+
+
 ____
 ## Rubric
 
@@ -21,7 +28,7 @@ Note: MarkDown (.md) documents are not HTML and therefore are best viewed in the
 
 This is part of your first practical lab in Week 3 
 
-1. A working URL properly documented in the MarkDown with a unique origin and destination earns 50%
+1. A working URL properly documented in the MarkDown and results in the JSON file with a unique origin and destination in directions earns 50%
 2. Including one to four additional functioning unique parameters from the API earns 50-70%
 3. Having 3 or more functioning unique/novel and well-thought out parameters from the API earns 70-90%. Explore the API documentation for parameters we have not used.
 4. Tell the story of your route. Include more than 2 "stops", and/or including additional links to display PlaceIDs on Google Maps, or other innovative presentations earns 80%-100%. 
