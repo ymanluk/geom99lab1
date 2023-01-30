@@ -12,7 +12,7 @@ Be creative and use multiple parameters from the API documentation to earn a top
 https://YourDirectionsApiURLGoesHere
 ```
 
-## Take the JSON results and replace the contents of the file from the repository ```mydirections.json```:
+Copy/paste the JSON results and save them into the empty file ```mydirections.json``` in this repository
 
 ____
 ## Rubric
