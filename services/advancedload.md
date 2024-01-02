@@ -69,4 +69,4 @@ This code dynamically loads the Google Maps JavaScript API. It constructs a URL 
 
 ```
 
-For a complete understanding, it's best to refer directly to the [Google Maps Platform documentation](https://developers.google.com/maps/documentation/javascript/examples/map-simple#maps_map_simple-html).
+These examples are only for a deeper concept understanding and are modified by Shawn--not meant to be used as provided. If trying to implement them into some code they may require modifications. For a complete understanding, it's best to refer directly to the [Google Maps Platform documentation](https://developers.google.com/maps/documentation/javascript/examples/map-simple#maps_map_simple-html).
