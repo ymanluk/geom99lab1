@@ -1,6 +1,12 @@
 # Advanced Library Loading in Google Maps examples
 
-This is the Advanced library load reformatted for better readability and understanding. Note that this will be a simplified overview. The actual code should be referred to for full details:
+Note: This is an optional item to understand and only the simple API loading method will be tested on like:
+
+```javascript
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+```
+
+This is the Advanced library load alternative to the above one-line option and is reformatted for better readability and understanding. Note that this will be a simplified overview. The actual code should be referred to for full details:
 
 ```javascript
 (g => {
@@ -22,5 +28,31 @@ This is the Advanced library load reformatted for better readability and underst
 ```
 
 This code dynamically loads the Google Maps JavaScript API. It constructs a URL with necessary parameters, creates a script element, sets the URL as the script's source, and then appends it to the document. It also handles potential errors and ensures the API loads only once.
+
+## Further simplified version removing variables:
+
+```javascript
+(function (config) {
+    var mapsAPI = window.google = window.google || {};
+    mapsAPI.maps = mapsAPI.maps || {};
+    var scriptLoaded = new Promise((resolve, reject) => {
+        var script = document.createElement('script');
+        script.src = `https://maps.googleapis.com/maps/api/js?key=${config.key}&callback=${config.callback}`;
+        script.onerror = () => reject(new Error("Google Maps API could not load."));
+        document.head.appendChild(script);
+        mapsAPI.maps.__ib__ = resolve;
+    });
+
+    if (mapsAPI.maps.importLibrary) {
+        console.warn("Google Maps API only loads once. Ignoring:", config);
+    } else {
+        mapsAPI.maps.importLibrary = (libraryName) => scriptLoaded.then(() => {
+            // Additional logic for library import
+        });
+    }
+})({ key: "YOUR_API_KEY", callback: "yourCallbackFunction" });
+
+```
+
 
 For a complete understanding, it's best to refer directly to the [Google Maps Platform documentation](https://developers.google.com/maps/documentation/javascript/examples/map-simple#maps_map_simple-html).
