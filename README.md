@@ -50,7 +50,7 @@ A referral is the address of the web page where a someone clicked the link that 
 
 ### Whitelisted IP Address
 
-Some items (like Directions API) do not accept Referral URLs as are meant to be used server-side (aka locally on your computer). To provide access here a second key is provided that is restricted only by the IP address of the calling computer. This key will work on the Fleming labs and VDI (optionally, if your computer IP is provided during your first scheduled lab, on your local computer as long as that IP is valid). 
+Some items (like Directions API) do not accept Referral URLs as are meant to be used server-side (aka locally on your computer). To provide access here a second key is provided that is restricted only by the IP address of the calling computer. This key will work on the Fleming labs and VDI.
 
 #### _Both keys are provided within the Geom99 Desire2learn Checklist and are restricted to provide access to only the following:_
 
