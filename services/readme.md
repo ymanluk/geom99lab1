@@ -6,6 +6,7 @@ Combined with the Weekly checklists in D2L, complete the following two activitie
 ## ![maps](https://mapsplatform.google.com/static/images/icons/header/NAV_Products_Supernav_Icon_01-Maps.svg) 1. Maps - Simple HTML Map Example
 
 This html page is associated with the readings at https://developers.google.com/maps/documentation/javascript/overview#maps_map_simple-html
+(Note that Google's examples use an advanced API loading function which is optional to understand and is [explained on this page](advancedload.md).) 
 
 The simplemap can be opened in GitHub Pages by modifying the url `https://[username].github.io/geom99lab1/services/simplemap.html`. Remember to replace the `[username]` portion with your actual GitHub username. 
 
