@@ -9,7 +9,7 @@ Be creative and use multiple parameters from the API documentation to earn a top
 ## Directions URL
 
 ```
-https://maps.googleapis.com/maps/api/directions/json?origin=Disneyland&destination=Universal+Studios+Hollywood&key=AIzaSyDv3MGflguusDaLmV_-BUlmuoUI4EbM88w
+https://maps.googleapis.com/maps/api/directions/json?origin=place_id:ChIJ3S-JXmauEmsRUcIaWtf4MzE&key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE
 ```
 
 Copy/paste the JSON results and save them into the empty file ```mydirections.json``` in this repository
