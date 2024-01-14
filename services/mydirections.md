@@ -21,26 +21,27 @@ Read the Rubric to find out about what options exist to earn more marks. Here is
 ### Simple option:
 Tourist itinerary (by walking & ferry)
 
-CN Tower
+Origin: CN Tower
 ```
 https://www.google.com/maps/place/?q=place_id:ChIJx8QYitY0K4gRM6moEMfmw0s
 ```
-Toronto Islands
+Stopover: Toronto Islands
 ```
 https://www.google.com/maps/place/?q=place_id:ChIJA7SCPufL1IkR19jLJqMmv-Y
 ```
-Hockey Hall of Fame
+Stopover: Hockey Hall of Fame
 ```
 https://www.google.com/maps/place/?q=place_id:ChIJsRjTsS3L1IkRC177bW2To_4
 ```
-St Lawrence Market
+Stopover: St Lawrence Market
 ```
 https://www.google.com/maps/place/?q=place_id:ChIJWyfdtDHL1IkR_bal8ay1Cso
 ```
-Distillery District
+Destination: Distillery District
 ```
 https://www.google.com/maps/place/?q=place_id:ChIJCcYBxz3L1IkRFmpW29wp58M
 ```
+
 (returns map-preferred) Maps PlaceID search: https://www.google.com/maps/place/?q=place_id:ChIJFfiCrdo4Qm0RqPwuOAVtaj8
 ### Efficient option
 
