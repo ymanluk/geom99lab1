@@ -9,7 +9,7 @@ Be creative and use multiple parameters from the API documentation to earn a top
 ## Directions URL
 
 ```
-https://maps.googleapis.com/maps/api/directions/json?origin=place_id:ChIJx8QYitY0K4gRM6moEMfmw0s&waypoints=place_id:ChIJsRjTsS3L1IkRC177bW2To_4|place_id:ChIJWyfdtDHL1IkR_bal8ay1Cso|place_id:ChIJCcYBxz3L1IkRFmpW29wp58M&destination=place_id:ChIJwwBKO7fK1IkR0wfNLSCjUFY&mode=walking&transit_mode=rail&units=metric&key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE
+https://maps.googleapis.com/maps/api/directions/json?origin=place_id:ChIJx8QYitY0K4gRM6moEMfmw0s&waypoints=place_id:ChIJA7SCPufL1IkR19jLJqMmv-Y|place_id:ChIJsRjTsS3L1IkRC177bW2To_4|place_id:ChIJWyfdtDHL1IkR_bal8ay1Cso&destination=place_id:ChIJCcYBxz3L1IkRFmpW29wp58M&mode=walking&transit_mode=rail&units=metric&key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE
 ```
 
 Copy/paste the JSON results and save them into the empty file ```mydirections.json``` in this repository
