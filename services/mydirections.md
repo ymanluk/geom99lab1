@@ -9,7 +9,7 @@ Be creative and use multiple parameters from the API documentation to earn a top
 ## Directions URL
 
 ```
-https://maps.googleapis.com/maps/api/directions/json?origin=place_id:ChIJ3S-JXmauEmsRUcIaWtf4MzE&key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE
+https://maps.googleapis.com/maps/api/directions/json?origin=place_id:ChIJx8QYitY0K4gRM6moEMfmw0s&waypoints=place_id:ChIJsRjTsS3L1IkRC177bW2To_4|place_id:ChIJWyfdtDHL1IkR_bal8ay1Cso|place_id:ChIJCcYBxz3L1IkRFmpW29wp58M&destination=place_id:ChIJwwBKO7fK1IkR0wfNLSCjUFY&mode=walking&transit_mode=rail&units=metric&key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE
 ```
 
 Copy/paste the JSON results and save them into the empty file ```mydirections.json``` in this repository
@@ -19,7 +19,14 @@ Copy/paste the JSON results and save them into the empty file ```mydirections.js
 Read the Rubric to find out about what options exist to earn more marks. Here is where you can provide these additional links to place ids or other items telling a story about your chosen directions API
 
 ### Simple option:
-
+Tourist itinerary on foot: CN Tower --> Toronto Islands --> Hockey Hall of Fame --> St Lawrence Market --> Distillery District
+```
+https://www.google.com/maps/place/?q=place_id:ChIJx8QYitY0K4gRM6moEMfmw0s
+https://www.google.com/maps/place/?q=place_id:ChIJA7SCPufL1IkR19jLJqMmv-Y
+https://www.google.com/maps/place/?q=place_id:ChIJsRjTsS3L1IkRC177bW2To_4
+https://www.google.com/maps/place/?q=place_id:ChIJWyfdtDHL1IkR_bal8ay1Cso
+https://www.google.com/maps/place/?q=place_id:ChIJCcYBxz3L1IkRFmpW29wp58M
+```
 (returns map-preferred) Maps PlaceID search: https://www.google.com/maps/place/?q=place_id:ChIJFfiCrdo4Qm0RqPwuOAVtaj8
 ### Efficient option
 
