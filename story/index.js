@@ -7,10 +7,10 @@ function initMap() {
     center: { lat: 43.734458, lng: 7.421363 },
   });
   const CircuitCoordinates = [
-    { lat: 37.772, lng: -122.214 },
-    { lat: 21.291, lng: -157.821 },
-    { lat: -18.142, lng: 178.431 },
-    { lat: -27.467, lng: 153.027 },
+    { lat: 43.734458, lng: 7.421363 },
+    { lat: 43.73575, lng: 7.42125 },
+    { lat: 43.73659, lng: 7.42150 },
+    { lat: 43.73693, lng: 7.42183 },
   ];
   const flightPath = new google.maps.Polyline({
     path: CircuitCoordinates,
