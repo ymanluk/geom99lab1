@@ -13,7 +13,7 @@ function initMap() {
     { lat: -27.467, lng: 153.027 },
   ];
   const flightPath = new google.maps.Polyline({
-    path: s||iGonhl@,
+    path: CircuitCoordinates,
     geodesic: true,
     strokeColor: "#FF0000",
     strokeOpacity: 1.0,
