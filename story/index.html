@@ -1,20 +1,21 @@
-<!DOCTYPE html>
 <html>
   <head>
-    <title>Circuit de Monaco</title>
+    <title>Street View split-map-panes</title>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <!-- playground-hide -->
+    <script>
+      const process = { env: {} };
+      process.env.GOOGLE_MAPS_API_KEY =
+        "AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg";
+    </script>
+    <!-- playground-hide-end -->
 
-    <!-- <link rel="stylesheet" type="text/css" href="./style.css" /> -->
-    <script type="module" src="index.js"></script>
-    <style>
-      #map {
-        height: 100%;
-      }
-    </style>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script type="module" src="./index.js"></script>
   </head>
   <body>
-    <div id="map" style="width: 45%; height: 100%; float: left"></div>
-    <div id="pano" style="width: 45%; height: 100%; float: left"></div>
+    <div id="map"></div>
+    <div id="pano"></div>
 
     <!-- 
       The `defer` attribute causes the callback to execute after the full HTML
@@ -24,7 +25,7 @@
       for more information.
       -->
     <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDv3MGflguusDaLmV_-BUlmuoUI4EbM88w&callback=initMap&v=weekly"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDv3MGflguusDaLmV_-BUlmuoUI4EbM88w&callback=initialize&v=weekly"
       defer
     ></script>
   </body>
