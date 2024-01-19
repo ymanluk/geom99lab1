@@ -1,64 +1,32 @@
-/* Source: Directly Accessing Street View Data from Google Maps Platform; 
-https://developers.google.com/maps/documentation/javascript/examples/streetview-service
-*/
-/*
- * Click the map to set a new location for the Street View camera.
- */
-let map;
-let panorama;
+<html>
+  <head>
+    <title>Street View split-map-panes</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <!-- playground-hide -->
+    <script>
+      const process = { env: {} };
+      process.env.GOOGLE_MAPS_API_KEY =
+        "AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg";
+    </script>
+    <!-- playground-hide-end -->
 
-function initMap() {
-  const monaco = { lat: 43.734663, lng: 7.421369 };
-  const sv = new google.maps.StreetViewService();
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script type="module" src="./index.js"></script>
+  </head>
+  <body>
+    <div id="map"></div>
+    <div id="pano"></div>
 
-  panorama = new google.maps.StreetViewPanorama(
-    document.getElementById("pano"),
-  );
-  // Set up the map.
-  map = new google.maps.Map(document.getElementById("map"), {
-    center: monaco,
-    zoom: 16,
-    streetViewControl: false,
-  });
-  // Set the initial Street View camera to the center of the map
-  sv.getPanorama({ location: monaco, radius: 50 }).then(processSVData);
-  // Look for a nearby Street View panorama when the map is clicked.
-  // getPanorama will return the nearest pano when the given
-  // radius is 50 meters or less.
-  map.addListener("click", (event) => {
-    sv.getPanorama({ location: event.latLng, radius: 50 })
-      .then(processSVData)
-      .catch((e) =>
-        console.error("Street View data not found for this location."),
-      );
-  });
-}
-
-function processSVData({ data }) {
-  const location = data.location;
-  const marker = new google.maps.Marker({
-    position: location.latLng,
-    map,
-    title: location.description,
-  });
-
-  panorama.setPano(location.pano);
-  panorama.setPov({
-    heading: 270,
-    pitch: 0,
-  });
-  panorama.setVisible(true);
-  marker.addListener("click", () => {
-    const markerPanoID = location.pano;
-
-    // Set the Pano to use the passed panoID.
-    panorama.setPano(markerPanoID);
-    panorama.setPov({
-      heading: 270,
-      pitch: 0,
-    });
-    panorama.setVisible(true);
-  });
-}
-
-window.initMap = initMap;
+    <!-- 
+      The `defer` attribute causes the callback to execute after the full HTML
+      document has been parsed. For non-blocking uses, avoiding race conditions,
+      and consistent behavior across browsers, consider loading using Promises.
+      See https://developers.google.com/maps/documentation/javascript/load-maps-js-api
+      for more information.
+      -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initialize&v=weekly"
+      defer
+    ></script>
+  </body>
+</html>
