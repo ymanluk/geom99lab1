@@ -1,8 +1,12 @@
+/* Source: Directly Accessing Street View Data from Google Maps Platform; 
+https://developers.google.com/maps/documentation/javascript/examples/streetview-service
+*/
 /*
  * Click the map to set a new location for the Street View camera.
  */
 let map;
 let panorama;
+let interactiveMarker;
 
 function initMap() {
   const monaco = { lat: 43.734180, lng: 7.421481 };
@@ -30,15 +34,21 @@ function initMap() {
       );
   });
 }
+    interactiveMarker = new google.maps.Marker({
+      position: monaco,
+      map: map,
+      draggable: true,
+      title: "Interactive Marker",
+    });
 
 function processSVData({ data }) {
   const location = data.location;
-//  const marker = new google.maps.Marker({
-//    position: location.latLng,
-//    map,
-//    title: location.description,
-//  });
-
+/*  const marker = new google.maps.Marker({
+    position: location.latLng,
+    map,
+    title: location.description,
+  });
+*/
   panorama.setPano(location.pano);
   panorama.setPov({
     heading: 270,
