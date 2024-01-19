@@ -6,10 +6,9 @@ https://developers.google.com/maps/documentation/javascript/examples/streetview-
  */
 let map;
 let panorama;
-let interactiveMarker;
 
 function initMap() {
-  const monaco = { lat: 43.734180, lng: 7.421481 };
+  const monaco = { lat: 43.734663, lng: 7.421369 };
   const sv = new google.maps.StreetViewService();
 
   panorama = new google.maps.StreetViewPanorama(
@@ -34,12 +33,6 @@ function initMap() {
       );
   });
 }
- //   interactiveMarker = new google.maps.Marker({
-//   position: monaco,
-  //    map: map,
-    //  draggable: true,
-    //  title: "Interactive Marker",
-    // });
 
 function processSVData({ data }) {
   const location = data.location;
