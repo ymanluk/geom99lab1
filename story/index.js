@@ -70,7 +70,6 @@ function initMap() {
     { lat: 43.73308, lng: 7.42199 },
     { lat: 43.73410, lng: 7.42149 },
     { lat: 43.73466, lng: 7.42136 },
- 
 
   ];
   const flightPath = new google.maps.Polyline({
@@ -78,7 +77,7 @@ function initMap() {
     geodesic: true,
     strokeColor: "#FF0000",
     strokeOpacity: 1.0,
-    strokeWeight: 2,
+    strokeWeight: 5,
   });
 
   flightPath.setMap(map);
