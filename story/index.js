@@ -34,12 +34,12 @@ function initMap() {
       );
   });
 }
-    interactiveMarker = new google.maps.Marker({
-      position: monaco,
-      map: map,
-      draggable: true,
-      title: "Interactive Marker",
-    });
+ //   interactiveMarker = new google.maps.Marker({
+//   position: monaco,
+  //    map: map,
+    //  draggable: true,
+    //  title: "Interactive Marker",
+    // });
 
 function processSVData({ data }) {
   const location = data.location;
