@@ -33,11 +33,11 @@ function initMap() {
 
 function processSVData({ data }) {
   const location = data.location;
-  const marker = new google.maps.Marker({
-    position: location.latLng,
-    map,
-    title: location.description,
-  });
+//  const marker = new google.maps.Marker({
+//    position: location.latLng,
+//    map,
+//    title: location.description,
+//  });
 
   panorama.setPano(location.pano);
   panorama.setPov({
