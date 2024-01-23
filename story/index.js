@@ -98,6 +98,7 @@ function initMap() {
     // Marker information
     const circuitMarkers = [
       { position: { lat: 43.734405, lng: 7.421371 }, title: "Fastest lap record of 1'10''166 by Lewis Hamilton in 2019 Qualifying (Q3)" },
+      { position: { lat: 43.738589, lng: 7.427903 }, title: "Casino section" },
       { position: { lat: 43.740304, lng: 7.429624 }, title: "Fairmont Hairpin: Slowest corner in F1, taken at around 48 kph" },
       { position: { lat: 43.738961, lng: 7.429920 }, title: "One of only three circuits to include a tunnel in F1 history" },
       { position: { lat: 43.735956, lng: 7.424736 }, title: "2 drivers ended up in the harbour in 1955 and 1965 respectively" },
