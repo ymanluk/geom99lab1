@@ -1,7 +1,7 @@
 // References: 
 // Simple Polylines example on Google Maps Platform: https://developers.google.com/maps/documentation/javascript/examples/polyline-simple
 // Clickable and accessible markers on Google Maps Platform: https://developers.google.com/maps/documentation/javascript/examples/advanced-markers-accessibility#maps_advanced_markers_accessibility-javascript
-// Marker information provided by Kenneth Mcleod: https://grandprixadventures.com/news/facts-about-monacogp.php; https://f1destinations.com/race-facts-monaco-f1-grand-prix/
+// Marker information provided by Kenneth Mcleod: https://grandprixadventures.com/news/facts-about-monacogp.php; Nicky Haldenby: https://f1destinations.com/race-facts-monaco-f1-grand-prix/
 
 // Simple Polylines
 function initMap() {
