@@ -1,4 +1,7 @@
-// Simple Polylines example
+// References: 
+// Simple Polylines example on Google Maps Platform: https://developers.google.com/maps/documentation/javascript/examples/polyline-simple
+// Clickable and accessible markers on Google Maps Platform: https://developers.google.com/maps/documentation/javascript/examples/advanced-markers-accessibility#maps_advanced_markers_accessibility-javascript
+// Marker information provided by Kenneth Mcleod: https://grandprixadventures.com/news/facts-about-monacogp.php
 
 // Simple Polylines
 function initMap() {
@@ -84,7 +87,7 @@ function initMap() {
 
   CircuitLayout.setMap(map);
 
-// Advanced Marker Example
+// Advanced Marker for circuit information
 (async () => {
     // Request needed libraries.
     const { Map, InfoWindow } = await google.maps.importLibrary("maps");
@@ -94,7 +97,10 @@ function initMap() {
 
     // Marker information
     const tourStops = [
-      { position: { lat: 43.740304, lng: 7.429624 }, title: "Fairmont Hairpin" },
+      { position: { lat: 43.740304, lng: 7.429624 }, title: "Fairmont Hairpin: Slowest corner in F1, taken at around 30 mph" },
+      { position: { lat: 43.738961, lng: 7.429920 }, title: "A tunnel section, of three circuits in F1 history" },
+      { position: { lat: 43.734512, lng: 7.422046 }, title: "Swimming Pool section" },
+      
       // ... (additional tour stops)
     ];
 
