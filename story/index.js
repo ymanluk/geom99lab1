@@ -98,7 +98,7 @@ function initMap() {
     // Marker information
     const tourStops = [
       { position: { lat: 43.740304, lng: 7.429624 }, title: "Fairmont Hairpin: Slowest corner in F1, taken at around 30 mph" },
-      { position: { lat: 43.738961, lng: 7.429920 }, title: "A tunnel section, of three circuits in F1 history" },
+      { position: { lat: 43.738961, lng: 7.429920 }, title: "One of only three circuits to include a tunnel in F1 history" },
       { position: { lat: 43.734512, lng: 7.422046 }, title: "Swimming Pool section" },
       
       // ... (additional tour stops)
