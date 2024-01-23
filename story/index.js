@@ -102,7 +102,7 @@ function initMap() {
       { position: { lat: 43.738961, lng: 7.429920 }, title: "One of only three circuits to include a tunnel in F1 history" },
       { position: { lat: 43.735956, lng: 7.424736 }, title: "2 drivers ended up in the harbour in 1955 and 1965 respectively" },
       { position: { lat: 43.734512, lng: 7.422046 }, title: "Piscine (Pool section)" },
-      { position: { lat: 43.732425, lng: 7.422437 }, title: "La Rascasse: Michael Schumacher parked his car and was penalized here in 2006 Qualifying" },
+      { position: { lat: 43.732471, lng: 7.423487 }, title: "La Rascasse: Michael Schumacher parked his car and was penalized here in 2006 Qualifying" },
     ];
 
     // Info Window initialization
