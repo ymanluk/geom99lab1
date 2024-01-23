@@ -1,7 +1,7 @@
 // References: 
 // Simple Polylines example on Google Maps Platform: https://developers.google.com/maps/documentation/javascript/examples/polyline-simple
 // Clickable and accessible markers on Google Maps Platform: https://developers.google.com/maps/documentation/javascript/examples/advanced-markers-accessibility#maps_advanced_markers_accessibility-javascript
-// Marker information provided by Kenneth Mcleod: https://grandprixadventures.com/news/facts-about-monacogp.php
+// Marker information provided by Kenneth Mcleod: https://grandprixadventures.com/news/facts-about-monacogp.php; https://f1destinations.com/race-facts-monaco-f1-grand-prix/
 
 // Simple Polylines
 function initMap() {
@@ -96,19 +96,20 @@ function initMap() {
 
 
     // Marker information
-    const tourStops = [
-      { position: { lat: 43.740304, lng: 7.429624 }, title: "Fairmont Hairpin: Slowest corner in F1, taken at around 30 mph" },
+    const circuitMarkers = [
+      { position: { lat: 43.734405, lng: 7.421371 }, title: "Fastest lap (1'10''166): Lewis Hamilton in 2019 Qualifying (Q3)" },
+      { position: { lat: 43.740304, lng: 7.429624 }, title: "Fairmont Hairpin: Slowest corner in F1, taken at around 48 kph" },
       { position: { lat: 43.738961, lng: 7.429920 }, title: "One of only three circuits to include a tunnel in F1 history" },
-      { position: { lat: 43.734512, lng: 7.422046 }, title: "Swimming Pool section" },
-      
-      // ... (additional tour stops)
+      { position: { lat: 43.735956, lng: 7.424736 }, title: "2 drivers ended up in the harbour in 1955 and 1965 respectively" },
+      { position: { lat: 43.734512, lng: 7.422046 }, title: "Piscine (Pool section)" },
+      { position: { lat: 43.732425, lng: 7.422437 }, title: "La Rascasse: Michael Schumacher parked his car and was penalized here in 2006 Qualifying" },
     ];
 
     // Info Window initialization
     const infoWindow = new InfoWindow();
 
     // Marker creation
-    tourStops.forEach(({ position, title }, i) => {
+    circuitMarkers.forEach(({ position, title }, i) => {
       const pin = new PinElement({
         glyph: `${i + 1}`,
       });
