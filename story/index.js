@@ -1,6 +1,6 @@
-// This example creates a 2-pixel-wide red polyline showing the path of
-// the first trans-Pacific flight between Oakland, CA, and Brisbane,
-// Australia which was made by Charles Kingsford Smith.
+// Simple Polylines example
+
+// Simple Polylines
 function initMap() {
   const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 16,
@@ -83,8 +83,52 @@ function initMap() {
 
   CircuitLayout.setMap(map);
 
+// Advanced Marker Example
+(async () => {
+    // Request needed libraries.
+    const { Map, InfoWindow } = await google.maps.importLibrary("maps");
+    const { AdvancedMarkerElement, PinElement } = await google.maps.importLibrary("marker");
 
 
+    // Map initialization
+    const map = new Map(document.getElementById("map"), {
+      zoom: 12,
+      center: { lat: 34.84555, lng: -111.8035 },
+      mapId: "4504f8b37365c3d0",
+    });
+
+    // Marker information
+    const tourStops = [
+      { position: { lat: 34.8791806, lng: -111.8265049 }, title: "Boynton Pass" },
+      // ... (additional tour stops)
+    ];
+
+    // Info Window initialization
+    const infoWindow = new InfoWindow();
+
+    // Marker creation
+    tourStops.forEach(({ position, title }, i) => {
+      const pin = new PinElement({
+        glyph: `${i + 1}`,
+      });
+
+      const marker = new AdvancedMarkerElement({
+        position,
+        map,
+        title: `${i + 1}. ${title}`,
+        content: pin.element,
+      });
+
+      marker.addListener("click", ({ domEvent, latLng }) => {
+        const { target } = domEvent;
+
+        infoWindow.close();
+        infoWindow.setContent(marker.title);
+        infoWindow.open(marker.map, marker);
+      });
+    });
+  })();
+  
   
 }
 
