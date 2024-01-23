@@ -90,16 +90,10 @@ function initMap() {
     const { AdvancedMarkerElement, PinElement } = await google.maps.importLibrary("marker");
 
 
-    // Map initialization
-    const map = new Map(document.getElementById("map"), {
-      zoom: 12,
-      center: { lat: 34.84555, lng: -111.8035 },
-      mapId: "4504f8b37365c3d0",
-    });
 
     // Marker information
     const tourStops = [
-      { position: { lat: 34.8791806, lng: -111.8265049 }, title: "Boynton Pass" },
+      { position: { lat: 43.740304, lng: 7.429624 }, title: "Fairmont Hairpin" },
       // ... (additional tour stops)
     ];
 
