@@ -5,6 +5,7 @@ function initMap() {
   const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 16,
     center: { lat: 43.735323, lng: 7.426205 },
+    mapId: "ChIJEWqpGwDDzRIR0yehpj7GKr8",
   });
   const CircuitCoordinates = [
     { lat: 43.734458, lng: 7.421363 },
